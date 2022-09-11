@@ -47,7 +47,7 @@ section ::after{
     }
     button {
         text-align: center;
-        display: flex;
+        
         flex-wrap: wrap;
         margin: 0 auto;
         margin-bottom: 10px;
