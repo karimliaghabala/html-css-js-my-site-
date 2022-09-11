@@ -82,19 +82,30 @@ section ::after{
         font-size: 12px;
     }
 
+    #layihelerim{
+        color:rgb(255, 230, 0) ;
+        font-size: 14px;
+        text-decoration: none;
+        border: 1px solid yellow;
+        display: none;
+    }
+    #layihelerim a:hover{
+        background-color: #ff6e00;
+        color: aliceblue;
+    }
+    #sertfikatlarim{
+        display: none;
+    }
+    #elaqe{
+        display: none;
+    }
+    #elaqe a img{
+        width: 50px;
+        height: 50px;
+        border-radius: 3rem;
+    }
+
 /*footer hissesi*/
-.son .menu{
-    text-decoration: none;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 14px;
-    text-decoration: none;
-    border: 2px solid white;
-}
-.son .menu:hover{
-    background: #ff6e00;
-    border-radius: 2px;
-}
 .son{
     border-radius: 0 0 1rem 1rem;
     background-color: dodgerblue;

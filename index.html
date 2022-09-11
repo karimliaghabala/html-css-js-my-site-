@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
     <title>Kərimli Ağabala</title>
 </head>
 <body>
@@ -18,14 +20,15 @@
         <section>
              <!--Sağ tərəfdə onların içərikləri-->
                <article id="sag">
-                <div id="tehsilim" style="display:none"> <p>TƏHSİLİM</p> <p> 
+                <div id="tehsilim" style="display:none; font-size: 14px;"> <p>TƏHSİLİM</p> <p> 
                      2011 – ci ildə 439 bal toplayaraq ADPU – nun Coğrafiya müəllimliyi ixtisasına qəbul olmuşam . 2017 – ci ildə bitirmişəm 2011 – ci ildə TB Bilgi tədris mərkəzində 6 aylıq Office proqramları, Adobe Photoshop proqramları üzrə kurs keçmişəm . Sertfikat verilib Təhsil sahəsində bir çox online kurslarda olmuşam. STEAM, UTİS və.s
                     Hazırda 3 kursda iştirak edirəm . 1 – i əyani 2 – si isə online.
                     1. Təhsil Nazirliyinin təşkil etdiyi «SQL proqramçı» kursunda artıq əyani olaraq 1 aydı iştirak edirəm .
                     2. Gənclər və idman Nazirliyinin təşkil etdiyi «WEB proqramlaşdırma» (HTML, CSS, JAVA SCRİPT) üzrə online təlimlərdə iştirak edirəm . Artıq 2 həfdədir.
                     3. 1 həfdədir İngilis dili kurslarına başlamışam</p>
                 </div>
-                <div id="sheherim" style="display:none"><p>  <p>ŞƏHƏRİM</p>
+                <div id="sheherim" style="display:none; font-size: 14px;"><p>  <p>ŞƏHƏRİM</p>
+                    <img src="image/zerdab.png" alt="zerdab" width="200px" height="150px"><br>
                     Zərdab rayonu (mərkəzi Zərdab şəhəri) Rayon haqqında Yaranma tarixi
                     – 05.02.1935-ci il. Ərazisi – 0.86 min kv. km. Əhalisi – 59737 nəfər (ilkin hesablamalara görə). 
                     Zərdab rayonu 1935-ci ildə təşkil (bu vaxtadək Zərdab bölgəsi Göyçay rayonunun tərkibində idi) 
@@ -33,33 +36,67 @@
                     6 yanvar 1965-ci il tarixdən Zərdabın müstəqil rayon statusu bərpa edilmişdir. Rayonda 1 şəhər, 
                     1 qəsəbə və 40 kənd olmaqla, 42 yaşayış məntəqəsi vardır. Ümumi əhalinin 20,3%-i şəhərdə, 79,7 
                     %-i isə qəsəbə və kəndlərdə yaşayır. Rayonda 28 inzibati ərazi dairəsi üzrə nümayəndəlik və 27 
-                    bələdiyyə fəaliyyət göstərir. Əsasən kənd təsərrüfatı rayonudu</p>
+                    bələdiyyə fəaliyyət göstərir. Əsasən kənd təsərrüfatı rayonudu <br>
+                    <a href="http://zerdab-ih.gov.az/az/page/10.html" target="_blank">Davamını oxu</a>
+                </p>
                 </div>
+                <div id="haqqimda" style="display:none; font-size: 14px;"><p>  <p>HAQQIMDA</p>03.03.1993 – cü ildə Zərdab rayonu 
+                    Pərvanlı kəndində anadan olmuşam . 2011 – ci ildə 439 bal toplayaraq ADPU – nun Coğrafiya 
+                    müəllimliyi ixtisasına qəbul olmuşam . 2015 – ci ildə Akademik məzuniyyət götürərək Hərbi 
+                    Xidmətə getmişəm. 2017 – ci ildə universiteti bitirib MİQ imtahanında 44 bal toplayaraq
+                    hazırda işlədiyim İmişli rayonu S.Məmmədov adına Axıcanlı kənd tam orta məktəbinə qəbul
+                    olmuşam. Hazırda əmək müqaviləmə əsasən həmin müəssisənin işçisiyəm. Əlavə olaraqda 
+                    həmin rayonun A.Allahverdiyev adına Qaralar kənd tam orta məktəbdədə 3 il müddətli
+                    müqavilə ilə çalışmışam . Həmçinin hər iki məktəbin UTİS, ŞAGİRD-MƏZUN, e-gov və s 
+                    sistemlər üzrə kordinaatoruyamBundan sonra özümü İT sahəsində yoxlayacam və inanıramkı 
+                    daha çox uğur qazana biləcəm</p>
+                </div>
+                    <div id="layihelerim">
+                        <p>GƏNCLƏR VƏ İDMAN NAZİRLİYİ(WEB PROQRAMLAŞDIRMA KURSU)</p>
+                        <a href="https://adpu.netlify.app/" target="_blank">AZƏRBAYCAN DÖVLƏT PEDOQOJİ UNİVERSİTETİ </a> 
+                        <a href="https://naxchivan.netlify.app/"  target="_blank">NAXÇIVAN MUXTAR RESPUBLİKASI</a> 
+                        <p>JAVA SCRIPT Tapşırıqlarım</p>
+                        <a href="https://tapshiriq.netlify.app" target="_blank">JavaScript 1</a>
+                        <a href="https://testaz.netlify.app" target="_blank">JavaScript 2 <span style="color:red ;">(yeni)</span></a> 
+                        <p>FRONT END HISSƏSİ HTML VƏ CSS LƏ YIĞILIB <span>(youtube dərslərinə əsasən hazırlanıb)</span></p>
+                        <a href="https://diasmobile.netlify.app/" target="_blank">İNTERNET MAQAZİN 1 - Cİ LAYİHƏ</a> 
+                        <a href="https://diasmobile1.netlify.app/"  target="_blank">İNTERNET MAQAZİN 2 - Cİ LAYİHƏ</a> 
+                        <a href="https://pervanlimescidi.netlify.app/"  target="_blank">MƏSCİD LAYİHƏSİ</a>
+                    </div>
 
+                    <div id="sertfikatlarim">
+                            <h1 style="text-align:center; color: #00ffd5;" >SERTFIKATLARIM</h1>
+                            <img src="image/sql3.PNG" alt="sql3" width="200px" height="150px" >
+                            <img src="image/sql1.PNG" alt="sql1" width="200px" height="150px">
+                            <img src="image/sql2.PNG" alt="sql2" width="200px" height="150px">
+                    </div>
+
+                    <div id="cv" style="display: none;">
+                        <img src="image/cv.PNG" alt="cv" width="200" height="300">
+                    </div>
+
+                    <div id="elaqe">
+                        <a href="https://www.linkedin.com/in/agabala-karimli-317838a9/" target="_blank"><img src="image/linkedin.png" alt="linkedin"></a>
+                        <a href="https://www.facebook.com/heyatin.bashlangici" target="_blank"><img src="image/facebook.png" alt="facebook"></a>
+                        <a href="https://github.com/karimliaghabala" target="_blank"><img src="image/github.png" alt="github"></a>
+                        <a href="https://wa.me/qr/MAMPEMBTIOGOO1" target="_blank"><img src="image/whatsap.png" alt="whatsapp"></a>
+                    </div>
                 </article>
             <!--Sol tərəfdə bölmələr-->
             <nav class="sol">
                 <p>Bölmələr</p>
-                <a class="buttons" href=""><button type="button" onclick="document.getElementById('tehsilim').style.display='inline-block'">Təhsilim</button></a>
-                <a class="buttons" href=""><button type="button" onclick="document.getElementById('sheherim').style.display='block'">Şəhərim</button></a>
-                <a class="buttons" href=""><button type="button" onclick="document.getElementById('sheherim').style.display='block'">Haqqımda</button></a>
-                <a class="buttons" href=""><button type="button" onclick="document.getElementById('sheherim').style.display='block'">Layihələrim</button></a>
-                <a class="buttons" href=""><button type="button" onclick="document.getElementById('sheherim').style.display='block'">Sertfikatlarım</button></a>
-                <a class="buttons" href=""><button type="button" onclick="document.getElementById('sheherim').style.display='block'">CV</button></a>
-                <a class="buttons" href=""><button type="button" onclick="document.getElementById('sheherim').style.display='block'">Əlaqə</button></a>
+                <button type="button" id="th">Təhsilim</button>
+                <button type="button" id="sh">Şəhərim</button>
+                <button type="button" id="hq">Haqqımda</button>
+                <button type="button" id="ly">Layihələrim</button>
+                <button type="button" id="sr">Sertfikatlarım</button>
+                <button type="button" id="cv">CV</button>
+                <button type="button" id="el">Əlaqə</button>
             </nav>
         </section>
         <!-- Sayıtın aşağı hissəsi-->
         <footer></footer><hr>
         <footer class="son">
-            <br>
-            <a class="menu" href="">Təhsilim</a>
-            <a class="menu" href="">Şəhərim</a>
-            <a class="menu" href="">Haqqımda</a>
-            <a class="menu" href="">Layihələrim</a>
-            <a class="menu" href="">Sertfikatlarım</a>
-            <a class="menu" href="">CV</a>
-            <a class="menu" href="">Əlaqə</a><br> <br>
             <div class="sosial">
                 <a href="https://www.linkedin.com/in/agabala-karimli-317838a9/" target="_blank"><img src="image/linkedin.png" alt="linkedin"></a>
                 <a href="https://www.facebook.com/heyatin.bashlangici" target="_blank"><img src="image/facebook.png" alt="facebook"></a>
