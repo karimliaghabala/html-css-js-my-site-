@@ -96,6 +96,15 @@ section ::after{
     #sertfikatlarim{
         display: none;
     }
+    #sertfikatlarim img:hover{
+        width: 500px;
+        height: 350px;
+    }
+
+    #cv img:hover{
+        width: 360px;
+        height: 500px;
+    }
     #elaqe{
         display: none;
     }
@@ -103,6 +112,10 @@ section ::after{
         width: 50px;
         height: 50px;
         border-radius: 3rem;
+    }
+    #elaqe a img:hover{
+        width: 100px;
+        height: 100px;
     }
 
 /*footer hissesi*/
