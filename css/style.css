@@ -79,7 +79,7 @@ section ::after{
     }
 
 /*footer hissesi*/
-.bashliq a{
+.son a{
     text-decoration: none;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -87,7 +87,14 @@ section ::after{
     text-decoration: none;
     border: 2px solid white;
 }
-.bashliq a:hover{
+.son a:hover{
     background: #ff6e00;
     border-radius: 2px;
+}
+.son{
+    border-radius: 1rem;
+    background-color: dodgerblue;
+    height: 100px;
+    width: 100%;
+    
 }
