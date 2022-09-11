@@ -58,6 +58,7 @@ section ::after{
         border: 1px;
         color: rgb(34, 33, 33);
         transition: .8s;
+        width: 100%;
         background: linear-gradient(0.25turn, white, rgb(0, 255, 179), rgb(0, 120, 136));
     }
     .buttons{
