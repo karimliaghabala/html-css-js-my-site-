@@ -33,7 +33,7 @@ section ::after{
     .sol{
         float: right;
         width: 30%;
-        height: 400px;
+        height: 100%;
         background-color: rgb(155, 102, 224);
         padding: 0%;
         border-radius: 0 0 1rem 1rem;
@@ -75,7 +75,7 @@ section ::after{
         float: right;
         padding: 20px;
         width: 70%;
-        height: 400px;
+        height: 100%;
         text-align: center;
         background-color: rgb(174, 181, 238);
         border-radius: 0 0  1rem 1rem;

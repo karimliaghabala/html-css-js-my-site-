@@ -5,6 +5,7 @@ $(document).ready(function() {
         $("div#sheherim").hide();
         $("div#cv").hide();
         $("div#elaqe").hide();
+        $("div#motivasiya").hide();
         $("div#layihelerim").hide();
     })
     $("button#sh").click(function() {
@@ -13,6 +14,7 @@ $(document).ready(function() {
         $("div#layihelerim").hide();
         $("div#cv").hide();
         $("div#elaqe").hide();
+        $("div#motivasiya").hide();
         $("div#sheherim").show(500);
     })
     $("button#hq").click(function() {
@@ -23,6 +25,7 @@ $(document).ready(function() {
         $("div#layihelerim").hide();
         $("div#cv").hide();
         $("div#elaqe").hide();
+        $("div#motivasiya").hide();
         $("div#haqqimda").show(500);
     })
     $("button#ly").click(function() {
@@ -33,6 +36,7 @@ $(document).ready(function() {
         $("div#sertfikatlarim").hide();
         $("div#cv").hide();
         $("div#elaqe").hide();
+        $("div#motivasiya").hide();
         $("div#layihelerim").show(500);
     })
     $("button#sr").click(function() {
@@ -43,6 +47,7 @@ $(document).ready(function() {
         $("div#layihelerim").hide();
         $("div#cv").hide();
         $("div#elaqe").hide();
+        $("div#motivasiya").hide();
         $("div#sertfikatlarim").show(500);
     })
     $("button#cv").click(function() {
@@ -53,6 +58,7 @@ $(document).ready(function() {
         $("div#layihelerim").hide();
         $("div#sertfikatlarim").hide();
         $("div#elaqe").hide();
+        $("div#motivasiya").hide();
         $("div#cv").show(500);
     })
     $("button#el").click(function() {
@@ -63,6 +69,7 @@ $(document).ready(function() {
         $("div#layihelerim").hide();
         $("div#sertfikatlarim").hide();
         $("div#cv").hide();
+        $("div#motivasiya").hide();
         $("div#elaqe").show(500);
     })
 
