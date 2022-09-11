@@ -67,12 +67,13 @@ section ::after{
         background: linear-gradient(white,rgb(161, 161, 75),rgb(93, 187, 93));
         color: rgb(212, 250, 0);
     }
+
     /*sag hisse*/
     #sag{
         float: left;
         padding: 20px;
         width: 75%;
-        height: 400px;
+        height: 100%;
         text-align: center;
         background-color: rgb(174, 181, 238);
     }
