@@ -52,7 +52,7 @@ section ::after{
     .sol{
         float: right;
         width: 30%;
-        height: 100%;
+        height: 380px;
         background-color: rgb(155, 102, 224);
         padding: 0%;
     }
@@ -98,6 +98,12 @@ section ::after{
         border-radius: 0 0  1rem 1rem;
         font-size: 12px;
         overflow: scroll;
+    }
+    #sag::-webkit-scrollbar{
+        background-color: rgb(174, 181, 238);
+    }
+    #sag::-webkit-scrollbar-corner{
+        background-color: rgb(174, 181, 238);
     }
     
 
