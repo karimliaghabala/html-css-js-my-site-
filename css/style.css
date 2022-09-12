@@ -37,7 +37,7 @@ body{
     transition: .3s ease-out all;
 }
 .arrow:hover{
-    background-color: blue;
+    background-color: rgb(101, 101, 228);
     border-radius: 10px;
 }
 
