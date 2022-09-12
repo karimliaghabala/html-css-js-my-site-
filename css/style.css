@@ -86,7 +86,7 @@ section ::after{
         background: linear-gradient(white,rgb(161, 161, 75),rgb(93, 187, 93));
         color: rgb(212, 250, 0);
         width: 150px;
-        height: 30px;
+        height: 40px;
     }
 
     /*sag hisse*/
@@ -126,13 +126,13 @@ section ::after{
     #sertfikatlarim img:hover{
         width: 500px;
         height: 350px;
-        transition: 2s;
+        transition: 0.4s;
     }
 
     #cv img:hover{
         width: 360px;
         height: 500px;
-        transition: 2s;
+        transition: 0.4s;
     }
     
     #elaqe{
@@ -146,7 +146,7 @@ section ::after{
     #elaqe a img:hover{
         width: 100px;
         height: 100px;
-        transition: 2s;
+        transition: 0.4s;
     }
 
 /*footer hissesi*/
@@ -162,6 +162,11 @@ section ::after{
     height: 50px;
     border-radius: 3rem;
     margin: 0 10px;
+}
+.sosial a img:hover{
+    width: 55px;
+    height: 55px;
+    transition: 0.4s;
 }
 
 
