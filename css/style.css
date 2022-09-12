@@ -55,11 +55,9 @@ section ::after{
         height: 100%;
         background-color: rgb(155, 102, 224);
         padding: 0%;
-        border-radius: 0 0 1rem 1rem;
     }
     .sol p{
-        font-size: 20px;
-        background-color:gainsboro;
+        font-size: 16px;
         text-shadow: 2px 0px 10px rgb(3, 8, 8);
         font-weight: bold;
         text-align: center;
