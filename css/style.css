@@ -94,12 +94,14 @@ section ::after{
         float: right;
         padding: 20px;
         width: 70%;
-        height: 100%;
+        height: 400px;
         text-align: center;
         background-color: rgb(174, 181, 238);
         border-radius: 0 0  1rem 1rem;
         font-size: 12px;
+        overflow: scroll;
     }
+    
 
     #layihelerim{
         color:rgb(255, 230, 0) ;
