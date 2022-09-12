@@ -1,80 +1,26 @@
+const leftArr = document.getElementById("leftArr");
+const rightArr = document.getElementById("rightArr");
+const textDiv = document.querySelector(".texts");
+let index = 0;
 
-$(document).ready(function() {
-	
-    $("button#th").click(function() {
-        $("div#tehsilim").show(500);
-        $("div#sheherim").hide();
-        $("div#cv").hide();
-        $("div#elaqe").hide();
-        $("div#motivasiya").hide();
-        $("div#layihelerim").hide();
-    })
-    $("button#sh").click(function() {
-        $("div#tehsilim").hide();
-        $("div#haqqimda").hide();
-        $("div#layihelerim").hide();
-        $("div#cv").hide();
-        $("div#elaqe").hide();
-        $("div#motivasiya").hide();
-        $("div#sheherim").show(500);
-    })
-    $("button#hq").click(function() {
+const texts = [
+    "Dünyanı dəyişdirmək üçün istifadə edə biləcəyiniz ən güclü silah Təhsildir.(Nelson Mandela)",
+    "Təhsilin məqsədi insanda doğuşdan var olan cövhər üzərində işləmək,  insanı inkişaf etdirməkdir.(Ferdinando Qaliani)",
+    "Elm adamlarının qiymətini   bilməyən, onlara layiq olduqları mükafatı   verməyən ölkələr inkişaf edəcəklərinə   ümid bəsləməsinlər.(Volter)"
+]
+function slideLeft() {
+    if (index == 0) index = texts.length-1;
+    else index--;
+    textDiv.textContent = texts[index];
+    gsap.from(textDiv, .5, {y: -20, opacity: 0, ease: 'power3.out'})
+}
 
-        $("div#tehsilim").hide();
-        $("div#sheherim").hide();
-        $("div#sertfikatlarim").hide();
-        $("div#layihelerim").hide();
-        $("div#cv").hide();
-        $("div#elaqe").hide();
-        $("div#motivasiya").hide();
-        $("div#haqqimda").show(500);
-    })
-    $("button#ly").click(function() {
+function slideRight() {
+    if (index == texts.length-1) index = 0;
+    else index++;
+    textDiv.textContent = texts[index];
+    gsap.from(textDiv, .5, {y: -20, opacity: 0, ease: 'power3.out'})
+}
 
-        $("div#tehsilim").hide();
-        $("div#sheherim").hide();
-        $("div#haqqimda").hide();
-        $("div#sertfikatlarim").hide();
-        $("div#cv").hide();
-        $("div#elaqe").hide();
-        $("div#motivasiya").hide();
-        $("div#layihelerim").show(500);
-    })
-    $("button#sr").click(function() {
-
-        $("div#tehsilim").hide();
-        $("div#sheherim").hide();
-        $("div#haqqimda").hide();
-        $("div#layihelerim").hide();
-        $("div#cv").hide();
-        $("div#elaqe").hide();
-        $("div#motivasiya").hide();
-        $("div#sertfikatlarim").show(500);
-    })
-    $("button#cv").click(function() {
-
-        $("div#tehsilim").hide();
-        $("div#sheherim").hide();
-        $("div#haqqimda").hide();
-        $("div#layihelerim").hide();
-        $("div#sertfikatlarim").hide();
-        $("div#elaqe").hide();
-        $("div#motivasiya").hide();
-        $("div#cv").show(500);
-    })
-    $("button#el").click(function() {
-
-        $("div#tehsilim").hide();
-        $("div#sheherim").hide();
-        $("div#haqqimda").hide();
-        $("div#layihelerim").hide();
-        $("div#sertfikatlarim").hide();
-        $("div#cv").hide();
-        $("div#motivasiya").hide();
-        $("div#elaqe").show(500);
-    })
-
-
-
-                
-    })
+leftArr.addEventListener("click", slideLeft);
+rightArr.addEventListener("click", slideRight)
