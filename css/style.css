@@ -124,9 +124,9 @@ section ::after{
         display: none;
     }
     #sertfikatlarim img:hover{
-        width: 500px;
-        height: 350px;
-        transition: 0.4s;
+        width: 300px;
+        height: 150px;
+        transform: skewX(5deg);
     }
 
     #cv img:hover{
