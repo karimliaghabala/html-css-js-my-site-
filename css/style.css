@@ -64,7 +64,6 @@ section ::after{
     }
     button {
         text-align: center;
-        
         flex-wrap: wrap;
         margin: 0 auto;
         margin-bottom: 10px;
@@ -81,6 +80,11 @@ section ::after{
     }
     .buttons{
         text-decoration: none;
+    }
+    @media(min-width:768px){
+        #ly{
+            font-size: 3px;
+        }
     }
     button:hover{
         background: linear-gradient(white,rgb(161, 161, 75),rgb(93, 187, 93));
@@ -167,11 +171,4 @@ section ::after{
     width: 55px;
     height: 55px;
     transition: 0.4s;
-}
-
-/* resposiv */
-@media (min-width:768px){
-    .sol>span{
-        font-size: 3px;
-    }
 }
