@@ -81,11 +81,6 @@ section ::after{
     .buttons{
         text-decoration: none;
     }
-    @media only screen and (min-width: 600px){
-        #ly{
-            font-size: 3px;
-        }
-    }
     button:hover{
         background: linear-gradient(white,rgb(161, 161, 75),rgb(93, 187, 93));
         color: rgb(212, 250, 0);
