@@ -169,4 +169,9 @@ section ::after{
     transition: 0.4s;
 }
 
-
+/* resposiv */
+@media (min-width:768px){
+    .sol button{
+        font-size: 5px;
+    }
+}
