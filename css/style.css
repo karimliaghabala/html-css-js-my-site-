@@ -123,8 +123,8 @@ section ::after{
         display: none;
     }
     #sertfikatlarim img:hover{
-        width: 400px;
-        height: 200px;
+        width: 500px;
+        height: 250px;
         transform: skewX(5deg);
     }
 
