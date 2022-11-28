@@ -128,16 +128,7 @@ button:hover {
 #elaqe{
     display: none;
 }
-#elaqe a img {
-    width: 50px;
-    height: 50px;
-    border-radius: 3rem;
-}
-#elaqe a img:hover {
-    width: 100px;
-    height: 100px;
-    transition: 0.4s;
-}
+
 /*footer hissesi*/
 .son {
     border-radius: 0 0 1rem 1rem;

@@ -1,3 +1,4 @@
+/*Header slider */
 const leftArr = document.getElementById("leftArr");
 const rightArr = document.getElementById("rightArr");
 const textDiv = document.querySelector(".texts");

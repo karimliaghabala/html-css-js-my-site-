@@ -72,9 +72,6 @@ $(document).ready(function() {
         $("div#cv").hide();
         $("div#motivasiya").hide();
         $("div#elaqe").show(500);
-    })
-
-
-
-                
+        
+    })          
     })

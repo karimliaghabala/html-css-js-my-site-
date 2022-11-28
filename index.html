@@ -40,8 +40,6 @@
             </div>
         </header>
         <hr>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
-        <script src="js/main.js"></script>
         <!--Bölmələr vı açıqlama hissələri-->
         <section>
             <!--Sağ tərəfdə onların içərikləri-->
@@ -144,14 +142,21 @@
                     <img src="image/cv.PNG" alt="cv" width="180" height="250">
                 </div>
                 <div id="elaqe">
-                    <a href="https://www.linkedin.com/in/agabala-karimli-317838a9/" target="_blank"><img
-                            src="image/linkedin.png" alt="linkedin"></a>
-                    <a href="https://www.facebook.com/heyatin.bashlangici" target="_blank"><img src="image/facebook.png"
-                            alt="facebook"></a>
-                    <a href="https://github.com/karimliaghabala" target="_blank"><img src="image/github.png"
-                            alt="github"></a>
-                    <a href="https://wa.me/qr/MAMPEMBTIOGOO1" target="_blank"><img src="image/whatsap.png"
-                            alt="whatsapp"></a>
+                    <form id = formFeedback>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Ad və Soyad</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Kərimli Ağabala">
+                          </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlInput1">Email address</label>
+                          <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlTextarea1">Təklif və iradlarınızı bizimlə bölüşün</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button id="submitEmail" type="submit" class="btn btn-primary">Göndər</button>
+                      </form>
                 </div>
             </article>
             <!--Sol tərəfdə bölmələr-->
@@ -212,6 +217,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="./js/script.js"></script>
 </body>
 
 </html>
