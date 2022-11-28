@@ -73,5 +73,6 @@ $(document).ready(function() {
         $("div#motivasiya").hide();
         $("div#elaqe").show(500);
         
-    })          
+    })    
     })
+
