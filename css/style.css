@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,300;0,500;0,600;1,400&family=Roboto:ital,wght@1,100&display=swap');
+
 * {
     box-sizing: border-box;
 }
-body{
-    background-color:gainsboro;
+body {
+    background-color: gainsboro;
     text-shadow: 2px 0px 10px rgb(3, 8, 8);
     font-weight: bold;
 
 }
-.merkezleshdirilib{
+.merkezleshdirilib {
     text-align: center;
     padding: 1rem 3%;
     margin: 1rem 3%;
 }
-
 /*header hissesi*/
-.bashliq{
+.bashliq {
     background-color: dodgerblue;
     padding: 2rem 0;
     text-align: center;
@@ -24,145 +24,134 @@ body{
     border-radius: 1rem 1rem 0 0;
     align-items: center;
 }
-.slider{
+.slider {
     display: flex;
     justify-content: space-between;
 }
-
-.arrow{
+.arrow {
     width: 70px;
     height: 50px;
     padding: 0 10px;
     cursor: pointer;
     transition: .3s ease-out all;
 }
-.arrow:hover{
+.arrow:hover {
     background-color: rgb(101, 101, 228);
     border-radius: 10px;
 }
-
-
 /*section hissesi*/
-section ::after{
+section ::after {
     content: "";
     display: block;
     clear: both;
 }
-    /*sol hisse*/
-    .sol{
-        float: right;
-        width: 30%;
-        height: 380px;
-        background-color: rgb(155, 102, 224);
-        padding: 0%;
-    }
-    .sol p{
-        font-size: 16px;
-        text-shadow: 2px 0px 10px rgb(3, 8, 8);
-        font-weight: bold;
-        text-align: center;
-    }
-    button {
-        text-align: center;
-        flex-wrap: wrap;
-        margin: 0 auto;
-        margin-bottom: 10px;
-        padding: 10px 20px;
-        border-radius: 10px 10px 10px;
-        font-size: 10px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        border: 1px;
-        color: rgb(34, 33, 33);
-        transition: .4s;
-        width: 100%;
-        background: linear-gradient(0.25turn, white, rgb(0, 255, 179), rgb(0, 120, 136));
-    }
-    .buttons{
-        text-decoration: none;
-    }
-    button:hover{
-        background: linear-gradient(white,rgb(161, 161, 75),rgb(93, 187, 93));
-        color: rgb(212, 250, 0);
-        width: 90px;
-        height: 40px;
-    }
+/*sol hisse*/
+.sol {
+    float: right;
+    width: 30%;
+    height: 380px;
+    background-color: rgb(155, 102, 224);
+    padding: 0%;
+}
+.sol p {
+    font-size: 16px;
+    text-shadow: 2px 0px 10px rgb(3, 8, 8);
+    font-weight: bold;
+    text-align: center;
+}
+button {
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 10px 10px 10px;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border: 1px;
+    color: rgb(255, 255, 255);
+    transition: .4s;
+    width: 100%;
+    background: linear-gradient(0.25turn, rgb(52, 1, 238), rgb(204, 83, 67), rgb(0, 197, 115));
+}
+.buttons {
+    text-decoration: none;
+}
+button:hover {
+    background: linear-gradient(white, rgb(161, 161, 75), rgb(93, 187, 93));
+    color: rgb(212, 250, 0);
+}
+/*sag hisse*/
+#sag {
+    float: right;
+    padding: 20px;
+    width: 70%;
+    height: 380px;
+    text-align: center;
+    background-color: rgb(174, 181, 238);
+    border-radius: 0 0 1rem 1rem;
+    font-size: 12px;
+    overflow: scroll;
+}
+#sag::-webkit-scrollbar {
+    background-color: rgb(174, 181, 238);
+}
 
-    /*sag hisse*/
-    #sag{
-        float: right;
-        padding: 20px;
-        width: 70%;
-        height: 380px;
-        text-align: center;
-        background-color: rgb(174, 181, 238);
-        border-radius: 0 0  1rem 1rem;
-        font-size: 12px;
-        overflow: scroll;
-    }
-    #sag::-webkit-scrollbar{
-        background-color: rgb(174, 181, 238);
-    }
-    #sag::-webkit-scrollbar-corner{
-        background-color: rgb(174, 181, 238);
-    }
-    
-
-    #layihelerim{
-        color:rgb(255, 230, 0) ;
-        font-size: 14px;
-        text-decoration: none;
-        border: 1px solid yellow;
-        display: none;
-    }
-    #layihelerim a:hover{
-        background-color: #ff6e00;
-        color: aliceblue;
-    }
-    #sertfikatlarim{
-        display: none;
-    }
-    #sertfikatlarim img:hover{
-        width: 500px;
-        height: 250px;
-        transform: skewX(5deg);
-    }
-
-    #cv img:hover{
-        width: 360px;
-        height: 500px;
-        transition: 0.4s;
-    }
-    
-    #elaqe{
-        display: none;
-    }
-    #elaqe a img{
-        width: 50px;
-        height: 50px;
-        border-radius: 3rem;
-    }
-    #elaqe a img:hover{
-        width: 100px;
-        height: 100px;
-        transition: 0.4s;
-    }
-
+#sag::-webkit-scrollbar-corner {
+    background-color: rgb(174, 181, 238);
+}
+#layihelerim {
+    color: rgb(255, 230, 0);
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid yellow;
+    display: none;
+}
+#layihelerim a:hover {
+    background-color: #ff6e00;
+    color: aliceblue;
+}
+#sertfikatlarim {
+    display: none;
+}
+#sertfikatlarim img:hover {
+    width: 500px;
+    height: 250px;
+    transform: skewX(5deg);
+}
+#cv img:hover {
+    width: 360px;
+    height: 500px;
+    transition: 0.4s;
+}
+#elaqe{
+    display: none;
+}
+#elaqe a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 3rem;
+}
+#elaqe a img:hover {
+    width: 100px;
+    height: 100px;
+    transition: 0.4s;
+}
 /*footer hissesi*/
-.son{
+.son {
     border-radius: 0 0 1rem 1rem;
     background-color: dodgerblue;
     height: 100%;
     width: 100%;
-
 }
-.sosial a img{
+.sosial a img {
     width: 50px;
     height: 50px;
     border-radius: 3rem;
     margin: 0 10px;
 }
-.sosial a img:hover{
+.sosial a img:hover {
     width: 55px;
     height: 55px;
     transition: 0.4s;
