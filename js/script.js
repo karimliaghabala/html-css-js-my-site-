@@ -6,5 +6,5 @@ const form = document.getElementById('formFeedback');
 
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
-    console.log("Mektub gonderildi")
+    alert("Mektub gonderildi")
 })
