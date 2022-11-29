@@ -5,6 +5,6 @@ const submit = document.getElementById('submitEmail');
 const form = document.getElementById('formFeedback');
 
 submit.addEventListener('click',(e)=>{
-    e.target.preventDefault();
-    console.log("")
+    e.preventDefault();
+    console.log("Mektub gonderildi")
 })
