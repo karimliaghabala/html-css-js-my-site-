@@ -4,7 +4,7 @@ const text = document.getElementById('exampleFormControlTextarea1');
 const submit = document.getElementById('submitEmail');
 const form = document.getElementById('formFeedback');
 
-submit.addEventListener('click',(e)=>{
+form.addEventListener('submit',(e)=>{
     e.preventDefault();
     console.log("Mektub gonderildi")
 })
