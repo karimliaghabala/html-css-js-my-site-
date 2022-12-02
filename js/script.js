@@ -1,10 +1,19 @@
-const name = document.getElementById('exampleFormControlInput1');
-const email = document.getElementById('exampleFormControlInput2');
-const text = document.getElementById('exampleFormControlTextarea1');
+
 const submit = document.getElementById('submitEmail');
 const form = document.getElementById('formFeedback');
 
-form.addEventListener('submit',(e)=>{
+submit.addEventListener('click',(e)=>{
     e.preventDefault();
-    alert("Mektub gonderildi")
+    submit.value = 'Göndərilir';
+    const serviceID = 'default_service';
+    const templateID = 'template_trcpd9k';
+
+    emailjs.sendForm(serviceID, templateID, form)
+     .then(() => {
+        submit.value = 'Send Email';
+       alert('Mektub gonderildi!');
+     }, (err) => {
+        submit.value = 'Send Email';
+       alert(JSON.stringify(err));
+     });
 })

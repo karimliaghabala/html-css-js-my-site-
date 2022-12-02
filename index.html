@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="description" content="Kərimli Ağabala ">
     <meta name="author" content="Kərimli Ağabala ">
-    <meta name="keywords" content="Kərimli Ağabala , yeni sayt yarat, bolog, layiheler, instagram, facebook, html, css, java, c#, c++, javascript, python">
+    <meta name="keywords"
+        content="Kərimli Ağabala , yeni sayt yarat, bolog, layiheler, instagram, facebook, html, css, java, c#, c++, javascript, python">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery.js"></script>
     <script src="js/main_jq.js"></script>
@@ -135,22 +136,29 @@
                 <div id="cv" style="display: none;">
                     <img src="image/cv.PNG" alt="cv" width="180" height="250">
                 </div>
-                <div id="elaqe">
-                    <form id = formFeedback action="agabala.93@gmail.com" method="POST">
+                <div id="elaqe" metod="GET">
+                    <form id=formFeedback >
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Ad və Soyad</label>
-                            <input type="text" class="form-control" id="exampleFormControlInput1" required placeholder="Kərimli Ağabala">
-                          </div>
-                        <div class="form-group">
-                          <label for="exampleFormControlInput1">Email address</label>
-                          <input type="email" class="form-control" id="exampleFormControlInput2" required placeholder="name@example.com">
+                            <input type="text" class="form-control" name="name" id="exampleFormControlInput1" required
+                                placeholder="Kərimli Ağabala">
                         </div>
                         <div class="form-group">
-                          <label for="exampleFormControlTextarea1">Təklif və iradlarınızı bizimlə bölüşün</label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" name="email" id="exampleFormControlInput2" required
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Təklif və iradlarınızı bizimlə bölüşün</label>
+                            <textarea class="form-control" name="mesagge" id="exampleFormControlTextarea1" rows="3"
+                                required></textarea>
                         </div>
                         <button id="submitEmail" type="submit" class="btn btn-primary">Göndər</button>
-                      </form>
+                    </form>
+                    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+                    <script type="text/javascript">
+                        emailjs.init('Z7DQCa4EOTN-AkwnG')
+                    </script>
                 </div>
             </article>
             <!--Sol tərəfdə bölmələr-->
@@ -189,10 +197,10 @@
                         alt="" /></a>
                 <script>(function (d, s) {
                         d.getElementById("licnt1FFB").src =
-                        "https://counter.yadro.ru/hit?t52.6;r" + escape(d.referrer) +
-                        ((typeof (s) == "undefined") ? "" : ";s" + s.width + "*" + s.height + "*" +
-                            (s.colorDepth ? s.colorDepth : s.pixelDepth)) + ";u" + escape(d.URL) +
-                        ";h" + escape(d.title.substring(0, 150)) + ";" + Math.random()
+                            "https://counter.yadro.ru/hit?t52.6;r" + escape(d.referrer) +
+                            ((typeof (s) == "undefined") ? "" : ";s" + s.width + "*" + s.height + "*" +
+                                (s.colorDepth ? s.colorDepth : s.pixelDepth)) + ";u" + escape(d.URL) +
+                            ";h" + escape(d.title.substring(0, 150)) + ";" + Math.random()
                     })
                         (document, screen)</script>
                 <!--/LiveInternet-->
@@ -211,9 +219,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
-        <script src="js/main.js"></script>
-        <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="./js/script.js"></script>
+
 </body>
 
 </html>
