@@ -157,10 +157,16 @@ button:hover {
     .sol{
         display: none;
     }
+    .sag{
+        width:100%;
+    }
 }
 
 @media screen and (max-width: 375px){
     .sol{
         display: none;
+    }
+    .sag{
+        width:100%;
     }
 }
