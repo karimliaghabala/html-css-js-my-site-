@@ -91,7 +91,6 @@ button:hover {
     height: 380px;
     text-align: center;
     background-color: rgb(174, 181, 238);
-    border-radius: 0 0 1rem 1rem;
     font-size: 12px;
     overflow: scroll;
 }
