@@ -59,6 +59,7 @@ section ::after {
     text-shadow: 2px 0px 10px rgb(3, 8, 8);
     font-weight: bold;
     text-align: center;
+    background: linear-gradient(0.25turn, rgb(52, 1, 238), rgb(204, 83, 67), rgb(0, 197, 115));
 }
 button {
     text-align: center;
