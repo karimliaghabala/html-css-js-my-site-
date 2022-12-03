@@ -151,3 +151,16 @@ button:hover {
     height: 55px;
     transition: 0.4s;
 }
+
+/*Responsive*/
+@media screen and (max-width: 830px){
+    .sol{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .sol{
+        display: none;
+    }
+}
