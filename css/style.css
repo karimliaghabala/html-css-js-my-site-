@@ -154,19 +154,20 @@ button:hover {
 
 /*Responsive*/
 @media screen and (max-width: 830px){
-    .sol{
-        display: none;
+    .sol>button>span{
+       font-size: 14px;
     }
-    .sag{
-        width:100%;
-    }
+    .sol>p{
+        font-size: 14px;
+     }
+
 }
 
 @media screen and (max-width: 375px){
-    .sol{
-        display: none;
-    }
-    .sag{
-        width:100%;
-    }
+    .sol>button>span{
+        font-size: 10px;
+     }
+    .sol>p{
+         font-size: 10px;
+      }
 }
