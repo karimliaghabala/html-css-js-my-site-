@@ -160,9 +160,15 @@ button:hover {
     .sol>p{
         font-size: 14px;
      }
-
+     .sosial a img {
+        width: 40px;
+        height: 40px;
+    }
+    .sosial a img:hover {
+        width: 45px;
+        height: 45px;
+    }
 }
-
 @media screen and (max-width: 375px){
     .sol>button>span{
         font-size: 10px;
@@ -170,4 +176,12 @@ button:hover {
     .sol>p{
          font-size: 10px;
       }
+      .sosial a img {
+        width: 30px;
+        height: 30px;
+    }
+    .sosial a img:hover {
+        width: 40px;
+        height: 40px;
+    }
 }
