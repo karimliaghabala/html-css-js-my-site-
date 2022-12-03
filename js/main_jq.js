@@ -1,12 +1,22 @@
 
 $(document).ready(function() {
 	
+    $("button#an").click(function() {
+        $("div#motivasiya").show(400);
+        $("div#tehsilim").hide();
+        $("div#sheherim").hide();
+        $("div#cv").hide();
+        $("div#elaqe").hide();
+        $("div#layihelerim").hide();
+        $("div#sertfikatlarim").hide();
+    })
     $("button#th").click(function() {
         $("div#tehsilim").show(500);
         $("div#sheherim").hide();
         $("div#cv").hide();
         $("div#elaqe").hide();
         $("div#motivasiya").hide();
+        $("div#sertfikatlarim").hide();
         $("div#layihelerim").hide();
     })
     $("button#sh").click(function() {
@@ -16,6 +26,7 @@ $(document).ready(function() {
         $("div#cv").hide();
         $("div#elaqe").hide();
         $("div#motivasiya").hide();
+        $("div#sertfikatlarim").hide();
         $("div#sheherim").show(500);
     })
     $("button#hq").click(function() {
