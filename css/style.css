@@ -165,6 +165,9 @@ button:hover {
     .sol>p{
         font-size: 14px;
      }
+     .sol>p>button>span{
+        font-size: 12px;
+     }
      .sosial a img {
         width: 40px;
         height: 40px;
@@ -181,6 +184,9 @@ button:hover {
     .sol>p{
          font-size: 10px;
       }
+      .sol>p>button>span{
+        font-size: 8px;
+     }
       .sosial a img {
         width: 30px;
         height: 30px;
