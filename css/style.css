@@ -26,7 +26,7 @@ body {
     padding: 2rem 0;
     text-align: center;
     font-size: 16px;
-    color: rgb(255, 255, 255);
+    color: rgb(31, 31, 31);
     align-items: center;
 }
 .slider {
@@ -115,7 +115,7 @@ button:hover {
     display: none;
 }
 #layihelerim a{
-    color:#ffffff
+    color:#fffb00
 }
 #layihelerim a:hover {
     background-color: #ff6e00;
