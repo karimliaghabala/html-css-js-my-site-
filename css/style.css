@@ -124,15 +124,14 @@ button:hover {
 #sertfikatlarim {
     display: none;
 }
-#sertfikatlarim img:hover {
-    width: 500px;
-    height: 250px;
-    transform: skewX(5deg);
+#sertfikatlarim a {
+    color:black;
+    font-size: 16;
 }
-#cv img:hover {
-    width: 360px;
-    height: 500px;
-    transition: 0.4s;
+
+#cv a {
+    color:black;
+    font-size: 16;
 }
 #elaqe{
     display: none;
