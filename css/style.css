@@ -178,6 +178,7 @@ button:hover {
     .motivasiya>p{
         font-size: 12px;
     }
+
 }
 @media screen and (max-width: 375px){
     .sol>button>span{
@@ -200,4 +201,5 @@ button:hover {
     .motivasiya>p{
         font-size: 10px;
     }
+
 }
